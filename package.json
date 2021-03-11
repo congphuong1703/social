@@ -1,16 +1,30 @@
 {
   "name": "social",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
+  "resolutions": {
+    "websocket-extensions": "^0.1.4",
+    "node-forge": "^0.10.0",
+    "node-fetch": "^2.6.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.3",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "mui-datatables": "^3.7.4",
+    "font-awesome": "^4.7.0",
+    "classnames": "^2.2.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "tinycolor2": "^1.4.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -21,8 +35,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -36,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/helper-call-delegate": "^7.11.4",
+    "prettier": "^2.1.1"
   }
 }
